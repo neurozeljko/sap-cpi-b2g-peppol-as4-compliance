@@ -1,0 +1,23 @@
+{
+  "BillingDocument": "INV-2026-ERR-001",
+  "IssueDate": "2026-11-07",
+  "Currency": "EUR",
+  "BuyerReference": "",
+  "Seller": {
+    "Name": "Global Enterprise Tech SE",
+    "PeppolID": "",
+    "VATNumber": "DE123456789"
+  },
+  "Buyer": {
+    "Name": "Bundesministerium",
+    "PeppolID": "9930:DE987654321"
+  },
+  "InvoiceLines": [
+    {
+      "Description": "Consulting Service",
+      "Quantity": 10.0,
+      "UnitPrice": 100.0,
+      "TaxRate": 19.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "BillingDocument": "INV-2026-DE-99410",
+  "IssueDate": "2026-11-07",
+  "Currency": "EUR",
+  "BuyerReference": "04011000-12345-67",
+  "Seller": {
+    "Name": "Global Enterprise Tech SE",
+    "LegalName": "Global Enterprise Tech SE",
+    "PeppolID": "9930:DE123456789",
+    "VATNumber": "DE123456789",
+    "Street": "Willy-Brandt-Strasse 1",
+    "City": "Berlin",
+    "PostalCode": "10557",
+    "CountryCode": "DE"
+  },
+  "Buyer": {
+    "Name": "Bundesministerium fuer Digitales",
+    "PeppolID": "9930:DE987654321",
+    "VATNumber": "DE987654321",
+    "Street": "Invalidenstrasse 44",
+    "City": "Berlin",
+    "PostalCode": "10115",
+    "CountryCode": "DE"
+  },
+  "Payment": {
+    "IBAN": "DE89370400440532013000"
+  },
+  "InvoiceLines": [
+    {
+      "Description": "SAP Cloud Integration Architecture Advisory Q4",
+      "Quantity": 160.0,
+      "UnitOfMeasure": "HUR",
+      "UnitPrice": 195.0,
+      "TaxRate": 19.0
+    }
+  ]
+}
