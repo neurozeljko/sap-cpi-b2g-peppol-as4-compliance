@@ -20,9 +20,13 @@ This architecture delivers a **Production-Grade Global B2G Compliance Engine**:
 
 ---
 
-## Architectural Topology
+## Architecture Overview
 
-```
+![SAP CPI Peppol B2G AS4 Architecture](sap-cpi-peppol-b2g-runtime-architecture.png)
+
+### High-Level Topology
+
+```text
 [SAP S/4HANA Cloud (Billing / DRC)]
           │
           │ OData V4 Billing Ingestion (/b2g/peppol/invoice/submit)
@@ -104,8 +108,9 @@ This architecture delivers a **Production-Grade Global B2G Compliance Engine**:
 
 ## Repository Structure
 
-```
+```text
 ├── README.md                                             # Enterprise architecture & operations runbook
+├── sap-cpi-peppol-b2g-runtime-architecture.png           # Integration flow runtime topology diagram
 ├── ADR-002-Peppol-Dynamic-Discovery-And-Schematron.md    # Architecture Decision Record
 ├── IF_B2G_Peppol_Dynamic_Compliance_Engine.zip           # Production iFlow bundle export
 ├── cpi/
